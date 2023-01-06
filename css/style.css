@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "dirty";
+    src: url(../fonts/Dirty.ttf);
+}
+
+@font-face {
+    font-family: "Public";
+    src: url(../fonts/Public.ttf);
+}
+
+body {
+    background: #16213E;
+}
+
+#guess-text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Public;
+    text-align: center;
+    text-shadow: 5px 5px 14px rgb(0, 0, 0);
+}
+
+#p {
+    text-align: right;
+    color: azure;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-family: Public;
+    font-size: 15px;
+    position: relative;
+    top: -110px;
+    right: 30px;
+}
+
+.con {
+    background-color: white;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    top: 100px;
+    margin: 100px 0px;
+}
+
+.container {
+    height: 15vh;
+    width: auto;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    margin-left: 630px;
+}
+
+div p {
+    font-size: 70px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-family: Public;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 4px 5px 6px black;
+    font-family: Public;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: 3px inset white;
+    transition: 0.5s;
+}
+
+.guess {
+    margin-left: 200px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family: public;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.check {
+    margin: 40px 240px;
+    height: 50px;
+}
+
+.ok {
+    float: left;
+    width: 50%;
+}
+
+.ok2 {
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+
+.ok2 p {
+    color: aliceblue;
+    font-size: 20px;
+    display: block;
+    font-family: Public;
+}
+
+@media screen and (max-width: 800px) {
+    .con {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        top: -20px;
+    }
+    .container {
+        position: absolute;
+        left: -250px;
+    }
+    .ok {
+        text-align: left;
+        position: relative;
+        left: -110px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .con {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        top: -40px;
+    }
+    .container {
+        position: absolute;
+        left: -400px;
+    }
+    .ok {
+        text-align: left;
+        position: relative;
+        left: -190px;
+        width: 20px;
+    }
+}
